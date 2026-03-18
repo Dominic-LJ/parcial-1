@@ -1,0 +1,22 @@
+Proceso maquinadebebidas
+	// pa comprar en una maquina expendedora
+	Definir opc Como Entero;
+	Escribir "selecione la bebida";
+	Escribir "1. Agua";
+	Escribir "2. café";
+	Escribir "3. coca";
+	Escribir "4. energética";
+	Leer  opc;
+	Segun opc Hacer
+		1:
+			Escribir "Agua: CLP 600";
+		2:
+			Escribir "Café: CLP 1200";
+		3:
+			Escribir "Coca: CLP 1000";
+		4:
+			Escribir "Energética: CLP 2100";
+		De Otro Modo:
+			Escribir "Opción no válida";
+	FinSegun
+FinProceso
